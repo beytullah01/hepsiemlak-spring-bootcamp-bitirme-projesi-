@@ -103,6 +103,7 @@ PUT /adverts/make-passive-advert/{advertId}
 POST /payments
 ```
 
+![Bitirme projesi drawio](https://user-images.githubusercontent.com/50759451/159806134-2ba400be-6108-4392-8e7c-f9051e3584be.png)
 
   
 ## Kullanılan Teknolojiler
