@@ -104,8 +104,20 @@ POST /payments
 ```
 
 ![Bitirme projesi drawio](https://user-images.githubusercontent.com/50759451/159806134-2ba400be-6108-4392-8e7c-f9051e3584be.png)
+# Token olusturma ve login 
+![image](https://user-images.githubusercontent.com/50759451/159813091-9082b19e-d436-4e20-8564-182ef44a80a7.png)
+# Kullanıcıları getir
+![image](https://user-images.githubusercontent.com/50759451/159813292-66b21c9d-730b-4c90-8319-b61bfbe9c343.png)
+# Kullanıcıya ürün eklemek
+![image](https://user-images.githubusercontent.com/50759451/159813399-4469e834-5301-403a-8a2b-fc35fe2efcde.png)
+# Kullanıcının ürünü ödeme islemi 
+![image](https://user-images.githubusercontent.com/50759451/159813774-a485c817-2aa2-4b56-847d-484d06ae0329.png)
+# Kullanıcının ürünü ödeme islemi sonrası tanımlama ve  RabbitMq yazma islemi
+![image](https://user-images.githubusercontent.com/50759451/159814011-4896745f-6856-462f-a852-7b990ed46c7c.png)
 
-  
+
+
+
 ## Kullanılan Teknolojiler
 
 **JAVA,** **Spring,** **Spring Security,** **JWT,** **MySql,** **Data Jpa,** **Hibernate,**
