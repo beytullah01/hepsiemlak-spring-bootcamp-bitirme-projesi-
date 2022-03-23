@@ -1,5 +1,5 @@
 
-# Hepsiemlak Bootcamp Bitirme Projesi -Emlakburada uygulaması
+# Hepsiemlak Bootcamp Bitirme Projesi -Emlakburada uygulamasi
 
 Kullanıcıların emlak sektöründe ilan yayınlayabildikleri web uygulamasıdır.
 
