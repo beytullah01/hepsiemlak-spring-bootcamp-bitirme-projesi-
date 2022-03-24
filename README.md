@@ -114,6 +114,9 @@ POST /payments
 ![image](https://user-images.githubusercontent.com/50759451/159813774-a485c817-2aa2-4b56-847d-484d06ae0329.png)
 # Kullanıcının ürünü ödeme islemi sonrası tanımlama ve  RabbitMq yazma islemi
 ![image](https://user-images.githubusercontent.com/50759451/159814011-4896745f-6856-462f-a852-7b990ed46c7c.png)
+# Kullanıcı ilan eklerken statu "status": "IN_REVIEW" fakat asenkron bir sekilde statu "ACTIVE" cekilmistir
+![image](https://user-images.githubusercontent.com/50759451/159817469-045cd937-2a58-4ae6-a2d7-b787ed228f29.png)
+
 
 
 
