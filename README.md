@@ -102,7 +102,7 @@ PUT /adverts/make-passive-advert/{advertId}
 ```http
 POST /payments
 ```
-
+## UML diyagram
 ![Bitirme projesi drawio](https://user-images.githubusercontent.com/50759451/159806134-2ba400be-6108-4392-8e7c-f9051e3584be.png)
 # Token olusturma ve login 
 ![image](https://user-images.githubusercontent.com/50759451/159813091-9082b19e-d436-4e20-8564-182ef44a80a7.png)
