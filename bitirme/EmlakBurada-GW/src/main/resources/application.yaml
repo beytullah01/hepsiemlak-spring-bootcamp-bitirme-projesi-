@@ -1,0 +1,50 @@
+server:
+   port: 9090
+
+spring:
+  application:
+    name: emlakburada-gateway
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: http://localhost:8082/auth
+  cloud:
+    gateway:
+      routes:
+            - id: emlakburada-adverts
+              uri: http://localhost:8085/ 
+              predicates:             
+                 - Path=/adverts/**
+            
+           
+            - id: emlakburada-auth
+              uri: http://localhost:8082/
+              predicates:
+                  - Path=/auth/**
+            
+              
+            - id: emlakburada-payments
+              uri: http://localhost:8097/
+              predicates:
+                  - Path=/payments/**
+             
+            - id: emlakburada-users
+              uri: http://localhost:8080/
+              predicates:
+                  - Path=/users/**,/products/**      
+            
+     
+ 
+  main:
+    allow-bean-definition-overriding: true
+    web-application-type: reactive
+eureka:
+  client:
+    register-with-eureka: true
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+
+logging:
+  level:
+    '[org.springframework.security]': TRACE
