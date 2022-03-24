@@ -65,6 +65,10 @@ POST /products
 GET /adverts
 ```
 
+#### ilan ekle
+```http
+POST /adverts/
+```
 #### İd ile ilan getir
 ```http
 GET /adverts/{userId}
