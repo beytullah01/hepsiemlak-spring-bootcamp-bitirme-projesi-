@@ -43,7 +43,7 @@ public class UserServiceImp implements UserService {
 	private OrderService orderService;
 
 	@Override
-	public Result saveUser(UserRequest request) { // save işlemi gerceklesir
+	public Result saveUser(UserRequest request) {
 
 		if (request.getEmail() == null) {
 
