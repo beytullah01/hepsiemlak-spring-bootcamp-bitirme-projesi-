@@ -166,8 +166,8 @@ public class UserServiceImp implements UserService {
 			Date createdDate = new Date();
 			Date expiredDate;
 
-			if (orderService.getOrderByUserId(userId) == null) {// kullanıcıya ait kullanımda bir order yoksa yeni order
-																// ekler
+			if (orderService.getOrderByUserId(userId) == null) {
+																
 
 				order = new Order();
 				expiredDate = new Date(createdDate.getTime() + (1000L * 60 * 60 * 24 * 30));
@@ -177,8 +177,8 @@ public class UserServiceImp implements UserService {
 				order.setExpiredDate(expiredDate);
 				order.setQuantity(product.getQuantity());
 
-			} else { // kullanıcıya ait bir order varsa yani kullanımda hakkı devam edıyorsa tarıhını
-						// uzatır ve uzerıne hak ekler
+			} else { 
+						
 
 				order = orderService.getOrderByUserId(userId);
 				expiredDate = new Date(order.getExpiredDate().getTime() + (1000L * 60 * 60 * 24 * 30));
