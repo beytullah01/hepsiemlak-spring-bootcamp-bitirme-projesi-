@@ -44,20 +44,7 @@ public class Product {
 	private int quantity;
 	private Date createdDate;
 	private Date expiredDate;
-	/*
-	@JsonIgnore
-	@ManyToMany
-	@JoinTable(name="users_products",
-	  joinColumns = {@JoinColumn(name="product_id")},
-	  inverseJoinColumns = {@JoinColumn(name="user_id")} )
 	
-	@EqualsAndHashCode.Exclude
-	@ToString.Exclude
-	private Set<User> enrolledUsers =new HashSet<>();
-	
-	public void enrolledUser(User user) {
-	
-		enrolledUsers.add(user);*/
 
 	}
 	
